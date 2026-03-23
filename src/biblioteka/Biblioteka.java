@@ -38,6 +38,7 @@ public class Biblioteka implements BibliotekaInterface {
 		return knjige;
 	}
 
+	//Ova metoda za sada pretrazuje samo po naslovu
 	@Override
 	public List<Knjiga> pronadjiKnjigu(Autor autor, long isbn, String naslov, String izdavac) {
 		
