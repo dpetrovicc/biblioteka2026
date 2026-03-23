@@ -10,6 +10,6 @@ public interface BibliotekaInterface {
 	public void dodajKnjigu(Knjiga knjiga);
 	public void obrisiKnjigu(Knjiga knjiga);
 	public List<Knjiga> vratiSveKnjige();
-	public Knjiga pronadjiKnjigu(Autor autor, long isbn, String naslov, String izdavac);
+	public List<Knjiga> pronadjiKnjigu(Autor autor, long isbn, String naslov, String izdavac);
 	
 }
